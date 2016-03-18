@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "catest"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "catest. The summary is not meaningful"
 
 # This description is used to generate tags and improve search results.
@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
                         The description is shorter than the summary
                        DESC
 
-  s.homepage         = "https://guides.cocoapods.org"
+  s.homepage         = "https://github.com/diong/catest"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "wuzx" => "wuzx@feiyu.com" }
-  #s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/catest.git", :tag => s.version.to_s }
-  s.source           = { :git => '/Users/wuzhx/Documents/test/catest' }
+  s.author           = { "wuzx" => "wdgxzhongxiang@163.com" }
+  s.source           = { :git => "https://github.com/diong/catest.git", :tag => s.version.to_s }
+  #s.source           = { :git => '/Users/wuzhx/Documents/test/catest' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
