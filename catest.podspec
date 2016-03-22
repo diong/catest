@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "catest"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "catest. 友盟推送1.2.6版本"
 
 # This description is used to generate tags and improve search results.
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "wuzx" => "wdgxzhongxiang@163.com" }
-  s.source           = { :git => "https://github.com/diong/catest.git", :tag => s.version.to_s }
-#s.source           = { :git => '/Users/wuzhx/sourcetree/catest' }
+#s.source           = { :git => "https://github.com/diong/catest.git", :tag => s.version.to_s }
+s.source           = { :git => '/Users/wuzhx/sourcetree/catest' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
@@ -37,10 +37,10 @@ Pod::Spec.new do |s|
 #    'catest' => ['Pod/Assets/*.png']
 #  }
   s.preserve_paths = 'Pod/UMessage_Sdk_1.2.6/libUMessage_Sdk_1.2.6.a'
-  s.libraries = 'UMessage_Sdk_1.2.6','z'
+  s.libraries = 'UMessage_Sdk_1.2.6.a','z'
 
 s.xcconfig = {
-'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/CAUMessage/Pod/UMessage_Sdk_1.2.6/"
+'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/catest/Pod/UMessage_Sdk_1.2.6/"
 }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
