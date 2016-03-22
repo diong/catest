@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "catest"
-  s.version          = "0.0.2"
+  s.version          = "0.0.1"
   s.summary          = "catest. 友盟推送1.2.6版本"
 
 # This description is used to generate tags and improve search results.
