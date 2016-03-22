@@ -37,7 +37,7 @@ s.source           = { :git => "https://github.com/diong/catest.git", :tag => s.
 #    'catest' => ['Pod/Assets/*.png']
 #  }
   s.preserve_paths = 'Pod/UMessage_Sdk_1.2.6/libUMessage_Sdk_1.2.6.a'
-  s.libraries = 'UMessage_Sdk_1.2.6.a','z'
+  s.libraries = 'UMessage_Sdk_1.2.6','z'
 
 s.xcconfig = {
 'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/catest/Pod/UMessage_Sdk_1.2.6/"
