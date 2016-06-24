@@ -6,10 +6,10 @@ target 'catest_Example', :exclusive => true do
 end
 
 target 'catest_Tests', :exclusive => true do
-  pod 'catest', :path => '../'
+#  pod 'catest', :path => '../'
 
-  pod 'Specta'
-  pod 'Expecta'
-  pod 'FBSnapshotTestCase'
-  pod 'Expecta+Snapshots'
+#  pod 'Specta'
+#  pod 'Expecta'
+#  pod 'FBSnapshotTestCase'
+#  pod 'Expecta+Snapshots'
 end
