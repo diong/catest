@@ -7,7 +7,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'catest'
-  s.version          = '1.4.11.1'
+  s.version          = '1.4.11.4'
   s.summary          = 'crazyant sdk.'
 
 # This description is used to generate tags and improve search results.
@@ -32,12 +32,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '7.1'
 
 s.source_files =
-"CASDK1.4.11/*.h"
-"CASDK1.4.11/UMessage_Sdk_1.3.0/*.h"
-"CASDK1.4.11/UMSocial_Sdk_5.2.1/Header/*.h"
-"CASDK1.4.11/UMSocial_Sdk_Extra_Frameworks/Facebook/*.h"
-"CASDK1.4.11/UMSocial_Sdk_Extra_Frameworks/SinaSSO/*.h"
-"CASDK1.4.11/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/*.h"
+"CASDK1.4.11/*.h",
+"CASDK1.4.11/UMessage_Sdk_1.3.0/*.h",
+"CASDK1.4.11/UMSocial_Sdk_5.2.1/Header/*.h",
+"CASDK1.4.11/UMSocial_Sdk_Extra_Frameworks/Facebook/*.h",
+"CASDK1.4.11/UMSocial_Sdk_Extra_Frameworks/SinaSSO/*.h",
+"CASDK1.4.11/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/*.h",
 "CASDK1.4.11/UMSocial_Sdk_Extra_Frameworks/Wechat/*.h"
 
 s.resources =
